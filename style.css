@@ -335,3 +335,22 @@ section {
         margin: 0 8px;
     }
 }
+
+@media (max-width: 768px) {
+    .main {
+        flex-direction: column-reverse; 
+        justify-content: center;
+        text-align: center;
+        padding-top: 120px;
+        background-position: center right; 
+        background-size: cover;
+    }
+
+    .main h2 span {
+        font-size: 1.8em;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+}
